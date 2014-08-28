@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This project creates the directory structure of any project.
+
+echo what is your project name?
+read project
+mkdir $project
+cd $project
+touch index.html
+mkdir js css img
+touch js/script.js css/style.css

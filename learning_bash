@@ -1,0 +1,21 @@
+cat /etc/shells : List of all the shells.
+
+echo $SHELL : it tells the current shell you are using.
+
+echo BASH_VERSION : tells the current version of the shell.
+
+env : it tells the lots of the variables like $SHELL , $BASH_VERSION etc.
+
+which bash : it tells where bash resides.
+ 
+Examples:
+
+* echo Hello World
+ output: Hello World
+
+* os=linux
+ i am using a $os
+ output: i am using a linux.
+
+* touch hello.sh : to create a bash file named hello.
+ 
